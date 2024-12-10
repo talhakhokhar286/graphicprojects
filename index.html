@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR. TALHA GRAPHIC DESIGN PROJECTS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="profile">
+      <img src="pi.jpg" alt="Profile Picture">
+      <h1>MR. TALHA GRAPHIC DESIGN PROJECTS</h1>
+    </div>
+    <p id="date"></p> <!-- Date and Day Display -->
+  </header>
+
+  <section id="folders">
+    <div class="folder" data-folder="all">
+      <span>ALL GRAPHICS DESIGN PROJECTS</span>
+      <div class="hover-preview">
+        <img src="Pictures/1.png" alt="Preview 1">
+        <img src="Flyers/12.jpg" alt="Preview 2">
+      </div>
+    </div>
+    <div class="folder" data-folder="logo">
+      <span>LOGO DESIGN PROJECTS</span>
+      <div class="hover-preview">
+        <img src="Pictures/11.png" alt="Preview 3">
+        <img src="Pictures/15.png" alt="Preview 4">
+      </div>
+    </div>
+    <div class="folder" data-folder="graphics">
+      <span>GRAPHICS DESIGN PROJECTS</span>
+      <div class="hover-preview">
+        <img src="graphic/1.png" alt="Preview 5">
+        <img src= "graphic/15.png" alt="Preview 6">
+      </div>
+    </div>
+    <div class="folder" data-folder="flyers">
+      <span>FLYERS DESIGN PROJECTS</span>
+      <div class="hover-preview">
+        <img src="Flyers/1.jpg" alt="Preview 7">
+        <img src="Flyers/11.jpg" alt="Preview 8">
+      </div>
+    </div>
+    <div class="folder" data-folder="social">
+      <span>SOCIAL MEDIA POSTS DESIGN PROJECTS</span>
+      <div class="hover-preview">
+        <img src="Smps/1.png" alt="Preview 9">
+        <img src="Smps/5.png" alt="Preview 10">
+      </div>
+    </div>
+    <div class="folder" data-folder="Business">
+      <span>Business Branding Assets</span>
+      <div class="hover-preview">
+        <img src="Company/1.png" alt="Preview 11">
+        <img src="Company/11.png" alt="Preview 12">
+      </div>
+    </div>
+    <!--
+    <div class="folder" data-folder="website">
+      <span>Website Showcase</span>
+      <div class="hover-preview">
+        <img src="Websites/W1.png" alt="Preview 13">
+        <img src="Websites/W12.png" alt="Preview 14">
+      </div>
+    </div>
+    -->
+    <div class="folder" data-folder="BrandingIcons">
+      <span>Branding Icons Library</span>
+      <div class="hover-preview">
+        <img src="Icons/0.png" alt="Preview 15">
+        <img src="Icons/1.png" alt="Preview 16">
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal for displaying gallery -->
+  <div id="modal">
+    <button id="closeModal">&lt; Back</button>
+    <div class="gallery"></div>
+  </div>
+  
+  <!-- Modal for full-sized images -->
+  <div id="imageModal">
+    <img id="fullImage" src="" alt="Full Image">
+  </div>
+  
+
+  <!-- Modal for Full Image -->
+  <div id="imageModal">
+    <img id="fullImage" src="" alt="Full Image">
+  </div>
+
+  <div id="modal">
+    <button id="closeModal">&lt; Back</button>
+    <div class="gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
